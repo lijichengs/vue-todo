@@ -11,7 +11,7 @@
           :key="todo.id"
           :todo=todo 
           @del="deleteTodo"/>
-         <tabs :filter="filter" 
+         <tabs :filter="filter"
             :todos="todos"
             @toggleFilter="toggleFilter" 
             @clear="clearCompeleted"/>
